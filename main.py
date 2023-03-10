@@ -16,9 +16,9 @@ def set_level():
   level = input("Choose a difficulty. Type 'easy' or 'hard': ")
   print(level)
   if level == 'hard':
-    return 10
-  if level == 'easy':
     return 5
+  if level == 'easy':
+    return 10
   else:
     print("Not a valid choice, restart the game")
     return 0
